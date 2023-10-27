@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Form</title>
+</head>
+<body>
+    <h1>Enter Data for Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="SkillsRequired">Skills Required:</label>
+        <input type="text" name="SkillsRequired" required><br>
+
+        <label for="Feedback">Feedback:</label>
+        <input type="number" name="Feedback" required><br>
+
+        <label for="Complexity">Complexity:</label>
+        <input type="number" name="Complexity" required><br>
+
+        <label for="Priority">Priority:</label>
+        <input type="number" name="Priority" required><br>
+
+        <label for="Status">Status:</label>
+        <input type="text" name="Status" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
